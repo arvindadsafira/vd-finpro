@@ -79,9 +79,6 @@ def case(cds):
               color='pink'
           )
 
-  # Move the legend to the upper left corner
-  case_fig.legend.location = 'top_left'
-
   # Show the plot
   return case_fig
 
@@ -119,9 +116,6 @@ def death(cds):
               color='pink'
           )
 
-  # Move the legend to the upper left corner
-  death_fig.legend.location = 'top_left'
-
   # Show the plot
   return death_fig
 
@@ -158,9 +152,6 @@ def recover(cds):
               hover_fill_alpha=1,
               color='pink'
           )
-
-  # Move the legend to the upper left corner
-  recover_fig.legend.location = 'top_left'
 
   # Show the plot
   return recover_fig

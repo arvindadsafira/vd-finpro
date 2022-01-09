@@ -56,6 +56,7 @@ def case(cds):
   
   # Format the tooltip
   tooltips = [
+              ('Total Cases','@total_cases'),
               ('Date','@date'),
               ('Location', '@location'),
               ('New Cases', '@new_cases'),
@@ -96,6 +97,7 @@ def death(cds):
   
   # Format the tooltip
   tooltips = [
+              ('Total Deaths','@total_deaths'),
               ('Date','@date'),
               ('Location', '@location'),
               ('New Cases', '@new_cases'),
@@ -136,6 +138,7 @@ def recover(cds):
   
   # Format the tooltip
   tooltips = [
+              ('Total Recovered','@total_recovered'),
               ('Date','@date'),
               ('Location', '@location'),
               ('New Cases', '@new_cases'),
